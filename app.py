@@ -1,28 +1,25 @@
 """
-ATHLOS · Aplicación web para explorar la historia olímpica.
-Punto de entrada con navegación multipágina.
+ATHLOS - Aplicacion web para explorar la historia olimpica.
+Punto de entrada con navegacion multipagina.
 """
 import streamlit as st
 from src.data import inicializar_sesion
 
-# ---- Configuración global de la página ----
+
 st.set_page_config(
-    page_title="ATHLOS · Historia Olímpica",
+    page_title="ATHLOS - Historia Olimpica",
     page_icon="🏅",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# ---- Inicializar estado de sesión ----
 inicializar_sesion()
 
-# ---- Logo (si existe) ----
 try:
-    st.logo("assets/logo.png")
+    st.sidebar.image("assets/logo.png", use_container_width=True)
 except Exception:
-    pass
+    st.sidebar.markdown("## ATHLOS")
 
-# ---- Navegación entre las 4 subpáginas ----
 paginas = [
     st.Page("pages/inicio.py",    title="Inicio",    icon="🏠", default=True),
     st.Page("pages/explorar.py",  title="Explorar",  icon="🔍"),
