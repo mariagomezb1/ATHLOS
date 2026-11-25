@@ -9,14 +9,14 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="assets/maria.png" width="180"><br>
+      <img src="../assets/maria.png" width="180"><br>
       <strong>Maria Clara Gómez</strong><br>
       Ingeniería Industrial<br>
       Universidad de Antioquia<br><br>
       Se destaca por su creatividad y responsabilidad. Tiene facilidad para trabajar en equipo, redactar e investigar información, además de aportar ideas relacionadas con el diseño y la presentación del proyecto.
     </td>
     <td align="center" width="50%">
-      <img src="assets/daniel.png" width="180"><br>
+      <img src="../assets/daniel.png" width="180"><br>
       <strong>Daniel Montoya</strong><br>
       Ingeniería Industrial<br>
       Universidad de Antioquia<br><br>
@@ -43,7 +43,7 @@ Este proyecto se desarrolla como parte de las actividades académicas de la asig
 
 **Logo:** 
 <p align="center">
-  <img src="assets/athlos.jpg" width="250">
+  <img src="../assets/athlos.jpg" width="250">
 </p>
 
 ---
